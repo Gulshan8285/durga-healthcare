@@ -53,7 +53,7 @@ export const FAQS_DATA = [
   },
   {
     question: "How can I enquire about home-care assistance?",
-    answer: "You can reach out 24 hours a day by calling our helpline at +91 94815 68203, chatting with a care coordinator on WhatsApp, or submitting your details via our online enquiry form. A dedicated coordinator will discuss your requirements within minutes."
+    answer: "You can reach out 24 hours a day by calling our helpline at +91 85918 50947, chatting with a care coordinator on WhatsApp, or submitting your details via our online enquiry form. A dedicated coordinator will discuss your requirements within minutes."
   },
   {
     question: "Are both day and night care shifts available?",

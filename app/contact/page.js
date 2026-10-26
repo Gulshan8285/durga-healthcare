@@ -46,13 +46,10 @@ export default function ContactPage() {
                 <div style={{ display: "flex", gap: "1rem", padding: "1.25rem", backgroundColor: "var(--slate-50)", borderRadius: "1rem", border: "1px solid var(--slate-200)" }}>
                   <div style={{ fontSize: "1.5rem" }}>📞</div>
                   <div>
-                    <h4 style={{ fontWeight: 800, color: "var(--slate-900)", marginBottom: "0.25rem" }}>Priority Phone Helplines</h4>
+                    <h4 style={{ fontWeight: 800, color: "var(--slate-900)", marginBottom: "0.25rem" }}>Priority Phone Helpline</h4>
                     <div style={{ display: "flex", flexDirection: "column", gap: "0.25rem" }}>
                       <a href={`tel:${SITE_CONFIG.primaryPhoneClean}`} style={{ fontWeight: 700, color: "var(--primary-700)", fontSize: "1.0625rem" }}>
-                        {SITE_CONFIG.primaryPhone} (Helpline 1)
-                      </a>
-                      <a href={`tel:${SITE_CONFIG.secondaryPhoneClean}`} style={{ fontWeight: 700, color: "var(--primary-700)", fontSize: "1.0625rem" }}>
-                        {SITE_CONFIG.secondaryPhone} (Helpline 2)
+                        {SITE_CONFIG.primaryPhone} (24/7 Dedicated Support)
                       </a>
                     </div>
                   </div>
@@ -88,9 +85,6 @@ export default function ContactPage() {
                     <a href={`mailto:${SITE_CONFIG.email}`} style={{ color: "var(--primary-700)", fontWeight: 600 }}>
                       {SITE_CONFIG.email}
                     </a>
-                    <div style={{ fontSize: "0.75rem", color: "var(--slate-500)", marginTop: "0.25rem" }}>
-                      Alternative: {SITE_CONFIG.altEmail}
-                    </div>
                   </div>
                 </div>
 

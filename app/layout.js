@@ -63,8 +63,8 @@ export default function RootLayout({ children }) {
     alternateName: "Durga Home Healthcare & Patient Attendants",
     description:
       "Durga Healthcare coordinates reliable home-care support, patient attendants, elderly care, home nursing, post-hospitalization recovery, and doctor consultations across India.",
-    telephone: "+919481568203",
-    email: "care@durgahealthcare.com",
+    telephone: SITE_CONFIG.primaryPhoneClean,
+    email: SITE_CONFIG.email,
     priceRange: "$$",
     currenciesAccepted: "INR",
     paymentAccepted: "Cash, UPI, Net Banking, Credit Card",

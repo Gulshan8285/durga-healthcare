@@ -20,10 +20,6 @@ export default function TopAnnouncementBar() {
           <a href={`tel:${SITE_CONFIG.primaryPhoneClean}`} style={{ fontWeight: 700, color: "#5eead4", textDecoration: "underline" }}>
             {SITE_CONFIG.primaryPhone}
           </a>
-          <span style={{ color: "#94a3b8" }}> / </span>
-          <a href={`tel:${SITE_CONFIG.secondaryPhoneClean}`} style={{ fontWeight: 700, color: "#5eead4", textDecoration: "underline" }}>
-            {SITE_CONFIG.secondaryPhone}
-          </a>
         </div>
         <span style={{ color: "#64748b" }}>•</span>
         <div className="top-bar-item" style={{ color: "#e2e8f0" }}>

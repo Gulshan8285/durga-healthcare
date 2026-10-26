@@ -498,11 +498,9 @@ export default function HomePage() {
                     📞
                   </div>
                   <div>
-                    <div style={{ fontSize: "0.75rem", color: "var(--slate-500)", fontWeight: 700, textTransform: "uppercase" }}>24/7 Telephone Helplines</div>
+                    <div style={{ fontSize: "0.75rem", color: "var(--slate-500)", fontWeight: 700, textTransform: "uppercase" }}>24/7 Telephone Helpline</div>
                     <div style={{ fontWeight: 700, color: "var(--slate-900)", marginTop: "0.25rem" }}>
                       <a href={`tel:${SITE_CONFIG.primaryPhoneClean}`} style={{ color: "var(--primary-700)" }}>{SITE_CONFIG.primaryPhone}</a>
-                      {" / "}
-                      <a href={`tel:${SITE_CONFIG.secondaryPhoneClean}`} style={{ color: "var(--primary-700)" }}>{SITE_CONFIG.secondaryPhone}</a>
                     </div>
                   </div>
                 </div>
@@ -519,7 +517,7 @@ export default function HomePage() {
                       rel="noopener noreferrer"
                       style={{ fontWeight: 700, color: "var(--whatsapp)", marginTop: "0.25rem", display: "inline-block" }}
                     >
-                      Connect on WhatsApp (+91 94815 68203)
+                      Connect on WhatsApp ({SITE_CONFIG.primaryPhone})
                     </a>
                   </div>
                 </div>
