@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+  <title>Our Home Healthcare Services | Durga Healthcare</title>
+  <meta name="description" content="Explore full home care services from Durga Healthcare: Patient Attendants, Elderly Care, Home Nursing, ICU Setup, Stroke & Dementia Rehab, Physiotherapy, Lab Tests, and Medical Equipment." />
+  <link rel="canonical" href="/services.html" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <meta name="theme-color" content="#0D9488" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-announcement-bar">
+    <div class="animate-marquee whitespace-nowrap flex items-center gap-8 font-medium">
+      <div class="top-bar-item" style="color: #5eead4;">
+        <span class="dot-indicator">
+          <span class="ping" style="background-color: #34d399;"></span>
+          <span class="solid" style="background-color: #10b981;"></span>
+        </span>
+        <span style="font-weight: 800; color: #ffffff; text-transform: uppercase;">24/7 Care Coordination Active</span>
+      </div>
+      <span style="color: #64748b;">•</span>
+      <div class="top-bar-item">
+        <span style="color: #cbd5e1;">📞 Priority Line:</span>
+        <a href="tel:+919481568203" style="font-weight: 700; color: #5eead4; text-decoration: underline;">+91 94815 68203</a>
+        <span style="color: #94a3b8;">/</span>
+        <a href="tel:+918591850947" style="font-weight: 700; color: #5eead4; text-decoration: underline;">+91 85918 50947</a>
+      </div>
+      <span style="color: #64748b;">•</span>
+      <div class="top-bar-item" style="color: #34d399;">
+        💬 Instant WhatsApp Care Assistance: +91 94815 68203
+      </div>
+      <span style="color: #64748b;">•</span>
+      <div class="top-bar-item" style="color: #e2e8f0;">
+        📍 Pan-India Service Coordination (Delhi NCR, Bengaluru, Mumbai, Pune &amp; Major Cities)
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky-header">
+    <div class="max-w-7xl">
+      <div class="nav-container">
+        <a href="index.html" class="brand-logo-link">
+          <div class="brand-icon-box">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.45"/>
+              <path d="M12 7.5v7M8.5 11h7" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div class="brand-title-wrap">
+            <div class="brand-title">
+              <span>Durga</span>
+              <span class="brand-accent">Healthcare</span>
+            </div>
+            <span class="brand-subtitle">Home &amp; Patient Care</span>
+          </div>
+        </a>
+
+        <nav class="desktop-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About Us</a>
+          <a href="services.html" class="nav-link active">Our Services</a>
+          <a href="blogs.html" class="nav-link">Care Blogs</a>
+          <a href="contact.html" class="nav-link">Contact Us</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="tel:+919481568203" class="btn-header-call">
+            📞 <span>Call 24/7</span>
+          </a>
+          <a href="https://wa.me/919481568203?text=Hello%20Durga%20Healthcare%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" class="btn-header-whatsapp">
+            💬 <span>WhatsApp</span>
+          </a>
+          <button type="button" class="btn-primary btn-open-enquiry" data-service="Services Enquiry">
+            <span>Enquire Now</span>
+          </button>
+        </div>
+
+        <div class="mobile-nav-toggle">
+          <a href="tel:+919481568203" class="btn-icon-mobile teal">📞</a>
+          <button type="button" id="openMobileNav" class="btn-icon-mobile">☰</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobileDrawer" class="mobile-drawer">
+    <div class="mobile-drawer-content">
+      <div class="drawer-header">
+        <div class="brand-title">
+          <span>Durga</span>
+          <span class="brand-accent">Healthcare</span>
+        </div>
+        <button type="button" id="closeMobileNav" class="modal-close-btn">✕</button>
+      </div>
+      <div class="drawer-nav-list">
+        <a href="index.html" class="drawer-nav-link">Home</a>
+        <a href="about.html" class="drawer-nav-link">About Us</a>
+        <a href="services.html" class="drawer-nav-link active">Our Services</a>
+        <a href="blogs.html" class="drawer-nav-link">Care Blogs</a>
+        <a href="contact.html" class="drawer-nav-link">Contact Us</a>
+      </div>
+      <div style="margin-top: 2rem; display: flex; flex-direction: column; gap: 0.75rem;">
+        <a href="tel:+919481568203" class="btn-call-hero" style="justify-content: center;">📞 Call: +91 94815 68203</a>
+        <a href="https://wa.me/919481568203" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-hero" style="justify-content: center;">💬 Chat on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- PAGE HERO -->
+    <section class="hero-gradient" style="padding: 3.5rem 0 3rem 0; border-bottom: 1px solid var(--slate-200); text-align: center;">
+      <div class="max-w-7xl">
+        <div class="pill-badge" style="margin-bottom: 1rem;">
+          <span class="dot-indicator"><span class="ping"></span><span class="solid"></span></span>
+          <span>Pan-India In-Home Care Services</span>
+        </div>
+        <h1 style="font-size: 2.5rem; font-weight: 800; color: var(--slate-900); letter-spacing: -0.025em; max-width: 48rem; margin: 0 auto 1rem auto; line-height: 1.2;">
+          Comprehensive In-Home Healthcare Services
+        </h1>
+        <p style="font-size: 1.0625rem; color: var(--slate-600); max-width: 42rem; margin: 0 auto; line-height: 1.6;">
+          Combining non-clinical patient attendants, elderly daily routine companions, qualified GNM/B.Sc clinical nurses, specialized post-stroke &amp; dementia care, physiotherapists, doctor consultations, lab tests at home, and hospital medical equipment on rent.
+        </p>
+      </div>
+    </section>
+
+    <!-- DETAILED SERVICE SECTIONS -->
+    <section style="padding: 4.5rem 0; background-color: #ffffff;">
+      <div class="max-w-7xl">
+        <div style="display: flex; flex-direction: column; gap: 4rem;">
+
+          <!-- 1. Patient Care Assistance -->
+          <div id="patient-care" style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center; border-bottom: 1px solid var(--slate-100); padding-bottom: 3.5rem;" class="lg:grid-cols-12">
+            <div class="lg:col-span-6">
+              <div style="border-radius: 1.25rem; overflow: hidden; box-shadow: var(--shadow-md); aspect-ratio: 4 / 3;">
+                <img src="images/hero-caregiver.jpg" alt="Patient Care Assistance at Home" style="width: 100%; height: 100%; object-fit: cover;" />
+              </div>
+            </div>
+            <div class="lg:col-span-6">
+              <div class="section-label">General Attendant</div>
+              <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--slate-900); margin-bottom: 0.75rem;">Patient Care Assistance at Home</h2>
+              <p style="font-size: 0.9375rem; color: var(--slate-600); line-height: 1.7; margin-bottom: 1.25rem;">
+                Home-based assistance for individuals who need compassionate support with everyday personal care, hygiene, bed-to-chair transfers, and routine living activities.
+              </p>
+              <ul class="service-features-list" style="margin-bottom: 1.5rem;">
+                <li class="service-feature-item">✓ Assistance with bathing, grooming, and clothing change</li>
+                <li class="service-feature-item">✓ Safe bed-to-chair and wheelchair mobility assistance</li>
+                <li class="service-feature-item">✓ Timely medication reminders as prescribed by doctor</li>
+                <li class="service-feature-item">✓ Nutritious mealtime feeding support and hydration check</li>
+                <li class="service-feature-item">✓ Vitals observation (temperature, blood pressure, pulse, oxygen)</li>
+              </ul>
+              <div style="display: flex; gap: 1rem; align-items: center;">
+                <button type="button" class="btn-primary btn-open-enquiry" data-service="Patient Care Assistance at Home">Book Patient Attendant</button>
+                <a href="https://wa.me/919481568203?text=Enquiring%20about%20Patient%20Care%20Assistance" target="_blank" rel="noopener noreferrer" class="btn-header-whatsapp">Chat on WhatsApp</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Elderly Care & Senior Companionship -->
+          <div id="elderly-care" style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center; border-bottom: 1px solid var(--slate-100); padding-bottom: 3.5rem;" class="lg:grid-cols-12">
+            <div class="lg:col-span-6 lg:order-2">
+              <div style="border-radius: 1.25rem; overflow: hidden; box-shadow: var(--shadow-md); aspect-ratio: 4 / 3;">
+                <img src="images/service-elderly.jpg" alt="Elderly Care at Home" style="width: 100%; height: 100%; object-fit: cover;" />
+              </div>
+            </div>
+            <div class="lg:col-span-6 lg:order-1">
+              <div class="section-label">Senior Living</div>
+              <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--slate-900); margin-bottom: 0.75rem;">Elderly Care &amp; Daily Routine Assistance</h2>
+              <p style="font-size: 0.9375rem; color: var(--slate-600); line-height: 1.7; margin-bottom: 1.25rem;">
+                Providing caring companionship, safety supervision, and structured daily routines for senior citizens living independently or with busy working family members.
+              </p>
+              <ul class="service-features-list" style="margin-bottom: 1.5rem;">
+                <li class="service-feature-item">✓ Compassionate companion conversation and mental engagement</li>
+                <li class="service-feature-item">✓ Accompanied morning and evening walking for mobility</li>
+                <li class="service-feature-item">✓ Constant fall prevention vigilance and bathroom assistance</li>
+                <li class="service-feature-item">✓ Doctor appointment companionship and medicine management</li>
+                <li class="service-feature-item">✓ Available on Daily, Weekly, and Monthly care packages</li>
+              </ul>
+              <div style="display: flex; gap: 1rem; align-items: center;">
+                <button type="button" class="btn-primary btn-open-enquiry" data-service="Elderly Care & Daily Routine">Book Senior Caregiver</button>
+                <a href="https://wa.me/919481568203?text=Enquiring%20about%20Elderly%20Care" target="_blank" rel="noopener noreferrer" class="btn-header-whatsapp">Chat on WhatsApp</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Professional Home Nursing Care & Home-ICU -->
+          <div id="home-nursing" style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center; border-bottom: 1px solid var(--slate-100); padding-bottom: 3.5rem;" class="lg:grid-cols-12">
+            <div class="lg:col-span-6">
+              <div style="border-radius: 1.25rem; overflow: hidden; box-shadow: var(--shadow-md); aspect-ratio: 4 / 3;">
+                <img src="images/service-nursing.jpg" alt="Home Nursing Care and ICU" style="width: 100%; height: 100%; object-fit: cover;" />
+              </div>
+            </div>
+            <div class="lg:col-span-6">
+              <div class="section-label">Qualified Clinical Care</div>
+              <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--slate-900); margin-bottom: 0.75rem;">Home Nursing Care &amp; Home-ICU Setup</h2>
+              <p style="font-size: 0.9375rem; color: var(--slate-600); line-height: 1.7; margin-bottom: 1.25rem;">
+                Registered GNM and B.Sc staff nurses providing hospital-grade clinical interventions in the safety and comfort of your home.
+              </p>
+              <ul class="service-features-list" style="margin-bottom: 1.5rem;">
+                <li class="service-feature-item">✓ IV Cannula insertion, IV infusions, and IM injections</li>
+                <li class="service-feature-item">✓ Sterile post-operative dressing and bed sore staging care</li>
+                <li class="service-feature-item">✓ Foley catheterization and bladder wash procedures</li>
+                <li class="service-feature-item">✓ Ryle's Tube insertion, gavage feeding, and suctioning</li>
+                <li class="service-feature-item">✓ Tracheostomy care, BiPAP/CPAP oversight, Home ICU monitoring</li>
+              </ul>
+              <div style="display: flex; gap: 1rem; align-items: center;">
+                <button type="button" class="btn-primary btn-open-enquiry" data-service="Home Nursing Care & ICU">Request Qualified Nurse</button>
+                <a href="https://wa.me/919481568203?text=Enquiring%20about%20Home%20Nursing%20Care" target="_blank" rel="noopener noreferrer" class="btn-header-whatsapp">Chat on WhatsApp</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Specialized Care (Stroke, Dementia, Parkinson's) -->
+          <div id="stroke-care" style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center; border-bottom: 1px solid var(--slate-100); padding-bottom: 3.5rem;" class="lg:grid-cols-12">
+            <div class="lg:col-span-6 lg:order-2">
+              <div style="border-radius: 1.25rem; overflow: hidden; box-shadow: var(--shadow-md); aspect-ratio: 4 / 3;">
+                <img src="images/service-stroke.jpg" alt="Specialized Stroke and Dementia Care" style="width: 100%; height: 100%; object-fit: cover;" />
+              </div>
+            </div>
+            <div class="lg:col-span-6 lg:order-1">
+              <div class="section-label">Specialized Condition Care</div>
+              <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--slate-900); margin-bottom: 0.75rem;">Stroke, Dementia &amp; Parkinson’s Specialized Care</h2>
+              <p style="font-size: 0.9375rem; color: var(--slate-600); line-height: 1.7; margin-bottom: 1.25rem;">
+                Dedicated trained attendants for conditions requiring specialized understanding, physical handling, patience, and anti-wandering supervision.
+              </p>
+              <ul class="service-features-list" style="margin-bottom: 1.5rem;">
+                <li class="service-feature-item">✓ <strong>Stroke Recovery:</strong> Paralysis support, repositioning every 2 hours</li>
+                <li class="service-feature-item">✓ <strong>Dementia / Alzheimer’s:</strong> Calming routine, wandering prevention</li>
+                <li class="service-feature-item">✓ <strong>Parkinson’s Disease:</strong> Tremor management, eating assistance, fall safety</li>
+                <li class="service-feature-item">✓ <strong>Arthritis Care:</strong> Joint mobility exercises, pain relief compress support</li>
+              </ul>
+              <div style="display: flex; gap: 1rem; align-items: center;">
+                <button type="button" class="btn-primary btn-open-enquiry" data-service="Specialized Stroke & Dementia Care">Book Specialized Care</button>
+                <a href="https://wa.me/919481568203?text=Enquiring%20about%20Specialized%20Care" target="_blank" rel="noopener noreferrer" class="btn-header-whatsapp">Chat on WhatsApp</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Physiotherapy Consultation at Home -->
+          <div id="physiotherapy" style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center; border-bottom: 1px solid var(--slate-100); padding-bottom: 3.5rem;" class="lg:grid-cols-12">
+            <div class="lg:col-span-6">
+              <div style="border-radius: 1.25rem; overflow: hidden; box-shadow: var(--shadow-md); aspect-ratio: 4 / 3;">
+                <img src="images/service-physio.jpg" alt="Physiotherapy at Home" style="width: 100%; height: 100%; object-fit: cover;" />
+              </div>
+            </div>
+            <div class="lg:col-span-6">
+              <div class="section-label">Physical Rehabilitation</div>
+              <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--slate-900); margin-bottom: 0.75rem;">Physiotherapy Consultation at Home</h2>
+              <p style="font-size: 0.9375rem; color: var(--slate-600); line-height: 1.7; margin-bottom: 1.25rem;">
+                Certified physiotherapists delivering customized physical rehabilitation, pain relief therapy, and post-surgery mobility restoration right in your living room.
+              </p>
+              <ul class="service-features-list" style="margin-bottom: 1.5rem;">
+                <li class="service-feature-item">✓ Knee &amp; hip replacement post-operative rehabilitation</li>
+                <li class="service-feature-item">✓ Neuro-physio for stroke paralysis and Parkinson's mobility</li>
+                <li class="service-feature-item">✓ Cervical, lumbar spondylosis &amp; chronic back pain management</li>
+                <li class="service-feature-item">✓ Geriatric balance training and fall risk reduction</li>
+              </ul>
+              <div style="display: flex; gap: 1rem; align-items: center;">
+                <button type="button" class="btn-primary btn-open-enquiry" data-service="Physiotherapy Consultation at Home">Book Physiotherapist</button>
+                <a href="https://wa.me/919481568203?text=Enquiring%20about%20Physiotherapy" target="_blank" rel="noopener noreferrer" class="btn-header-whatsapp">Chat on WhatsApp</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Doctor Consultation & Lab Tests at Home -->
+          <div id="doctor-consultation" style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center; border-bottom: 1px solid var(--slate-100); padding-bottom: 3.5rem;" class="lg:grid-cols-12">
+            <div class="lg:col-span-6 lg:order-2">
+              <div style="border-radius: 1.25rem; overflow: hidden; box-shadow: var(--shadow-md); aspect-ratio: 4 / 3;">
+                <img src="images/service-doctor.jpg" alt="Doctor Consultation and Lab Tests at Home" style="width: 100%; height: 100%; object-fit: cover;" />
+              </div>
+            </div>
+            <div class="lg:col-span-6 lg:order-1">
+              <div class="section-label">Diagnostics &amp; Consultations</div>
+              <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--slate-900); margin-bottom: 0.75rem;">Doctor Consultation &amp; Lab Tests at Home</h2>
+              <p style="font-size: 0.9375rem; color: var(--slate-600); line-height: 1.7; margin-bottom: 1.25rem;">
+                Avoid stressful hospital travels. Get verified General Physicians visiting for health reviews, along with professional blood sample collection for routine and specialized pathology tests.
+              </p>
+              <ul class="service-features-list" style="margin-bottom: 1.5rem;">
+                <li class="service-feature-item">✓ Physician home visits for senior health assessments</li>
+                <li class="service-feature-item">✓ Doorstep sample collection for CBC, Diabetes, Thyroid, LFT/KFT</li>
+                <li class="service-feature-item">✓ NABL certified digital lab reports within 12-24 hours</li>
+                <li class="service-feature-item">✓ Continuous medication review and prescription updates</li>
+              </ul>
+              <div style="display: flex; gap: 1rem; align-items: center;">
+                <button type="button" class="btn-primary btn-open-enquiry" data-service="Doctor Consultation & Lab Tests">Book Home Doctor / Lab</button>
+                <a href="https://wa.me/919481568203?text=Enquiring%20about%20Doctor%20and%20Lab%20Tests" target="_blank" rel="noopener noreferrer" class="btn-header-whatsapp">Chat on WhatsApp</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7. Medical Equipment Rent & Sale -->
+          <div id="medical-equipment" style="display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center; border-bottom: 1px solid var(--slate-100); padding-bottom: 3.5rem;" class="lg:grid-cols-12">
+            <div class="lg:col-span-6">
+              <div style="border-radius: 1.25rem; overflow: hidden; box-shadow: var(--shadow-md); aspect-ratio: 4 / 3;">
+                <img src="images/service-equipment.jpg" alt="Medical Equipment on Rent" style="width: 100%; height: 100%; object-fit: cover;" />
+              </div>
+            </div>
+            <div class="lg:col-span-6">
+              <div class="section-label">Equipment Support</div>
+              <h2 style="font-size: 1.75rem; font-weight: 800; color: var(--slate-900); margin-bottom: 0.75rem;">Medical Equipment on Rent &amp; Sale</h2>
+              <p style="font-size: 0.9375rem; color: var(--slate-600); line-height: 1.7; margin-bottom: 1.25rem;">
+                High-quality, sanitized hospital equipment delivered and set up at your doorstep within hours for short-term or long-term rental needs.
+              </p>
+              <ul class="service-features-list" style="margin-bottom: 1.5rem;">
+                <li class="service-feature-item">✓ Oxygen Concentrators (5L &amp; 10L medical grade)</li>
+                <li class="service-feature-item">✓ BiPAP and CPAP machines with specialized masks</li>
+                <li class="service-feature-item">✓ 2-Function / 3-Function Motorized Hospital ICU Beds</li>
+                <li class="service-feature-item">✓ Reclining Wheelchairs, Air Mattresses &amp; Suction Machines</li>
+              </ul>
+              <div style="display: flex; gap: 1rem; align-items: center;">
+                <button type="button" class="btn-primary btn-open-enquiry" data-service="Medical Equipment Rent & Sale">Rent Medical Equipment</button>
+                <a href="https://wa.me/919481568203?text=Enquiring%20about%20Medical%20Equipment%20Rental" target="_blank" rel="noopener noreferrer" class="btn-header-whatsapp">Chat on WhatsApp</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- BOTTOM CTA BANNER -->
+    <section class="cta-banner-section">
+      <div class="max-w-7xl">
+        <div class="cta-banner-content">
+          <h2 class="cta-banner-title">Speak with a Care Coordinator Today</h2>
+          <p class="cta-banner-desc">We will assess your requirements and check attendant and nurse availability for your exact pincode immediately.</p>
+          <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+            <a href="tel:+919481568203" class="btn-call-hero">📞 Call: +91 94815 68203</a>
+            <a href="https://wa.me/919481568203" target="_blank" rel="noopener noreferrer" class="btn-whatsapp-hero">💬 WhatsApp Coordination</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="max-w-7xl">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-title" style="color: #ffffff;">
+            <span>Durga</span>
+            <span style="color: var(--primary-400);">Healthcare</span>
+          </div>
+          <p>Coordinating compassionate home care, patient attendants, nursing, and recovery support across India.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links-list">
+            <li><a href="services.html#patient-care">Patient Care Assistance</a></li>
+            <li><a href="services.html#elderly-care">Elderly Care &amp; Routine</a></li>
+            <li><a href="services.html#home-nursing">Home Nursing &amp; ICU</a></li>
+            <li><a href="services.html#physiotherapy">Physiotherapy at Home</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blogs.html">Care Blogs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">24/7 Helpline</h4>
+          <div style="color: #ffffff; font-weight: 700; margin-bottom: 0.5rem;">+91 94815 68203</div>
+          <div style="color: var(--primary-300); font-size: 0.8125rem;">care@durgahealthcare.com</div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© 2026 Durga Healthcare. All rights reserved.</div>
+        <div style="display: flex; gap: 1rem;">
+          <a href="about.html#privacy" style="color: var(--slate-400);">Privacy Policy</a>
+          <a href="about.html#terms" style="color: var(--slate-400);">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <div class="floating-actions-bar">
+    <a href="tel:+919481568203" class="floating-btn phone" title="Call 24/7 Helpline">📞</a>
+    <a href="https://wa.me/919481568203" target="_blank" rel="noopener noreferrer" class="floating-btn whatsapp" title="WhatsApp Care Coordinator">💬</a>
+  </div>
+
+  <!-- Modal -->
+  <div id="enquiryModal" class="modal-overlay">
+    <div class="modal-content">
+      <button type="button" id="closeModalBtn" class="modal-close-btn">✕</button>
+      <div style="margin-bottom: 1.25rem;">
+        <h3 style="font-size: 1.25rem; font-weight: 800; color: var(--slate-900);">Enquire About Care Services</h3>
+        <p style="font-size: 0.8125rem; color: var(--slate-600);">We check caregiver availability and discuss suitable arrangements.</p>
+      </div>
+      <form class="care-enquiry-form">
+        <div class="form-group">
+          <label class="form-label">Full Name *</label>
+          <input type="text" name="fullName" class="form-input" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Mobile Number *</label>
+          <input type="tel" name="phone" class="form-input" placeholder="10-digit mobile" pattern="[0-9]{10}" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label">Service Required *</label>
+          <select id="modalServiceSelect" name="service" class="form-select" required>
+            <option value="Patient Care Assistance at Home">Patient Care Assistance at Home</option>
+            <option value="Elderly Care and Daily Assistance">Elderly Care and Daily Assistance</option>
+            <option value="Home Nursing Care & ICU">Home Nursing Care &amp; ICU</option>
+            <option value="Stroke / Paralysis Rehabilitation">Stroke / Paralysis Rehabilitation</option>
+            <option value="Physiotherapy at Home">Physiotherapy at Home</option>
+            <option value="Doctor Consultation at Home">Doctor Consultation at Home</option>
+            <option value="Lab Tests at Home">Lab Tests at Home</option>
+            <option value="Medical Equipment Rent / Sale">Medical Equipment Rent / Sale</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label">City / Location</label>
+          <input type="text" name="city" class="form-input" placeholder="e.g. South Delhi, Bangalore" />
+        </div>
+        <button type="submit" class="btn-primary" style="width: 100%; padding: 0.75rem;">Submit Request</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
