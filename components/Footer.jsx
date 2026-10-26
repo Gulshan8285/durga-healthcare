@@ -138,9 +138,22 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <div>
-            © {new Date().getFullYear()} {SITE_CONFIG.brandName}. All rights reserved. Compassionate Care Across India.
+            <div>
+              © {new Date().getFullYear()} {SITE_CONFIG.brandName}. All rights reserved. Compassionate Care Across India.
+            </div>
+            <div style={{ fontSize: "0.8125rem", color: "var(--slate-400)", marginTop: "0.35rem" }}>
+              Created with ❤️ by{" "}
+              <a
+                href="https://codeorbit.cloud"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "var(--primary-300)", fontWeight: 700, textDecoration: "underline" }}
+              >
+                codeorbit.cloud
+              </a>
+            </div>
           </div>
-          <div style={{ display: "flex", gap: "1.5rem" }}>
+          <div style={{ display: "flex", gap: "1.5rem", alignItems: "center" }}>
             <Link href="/about#privacy" style={{ color: "var(--slate-400)" }}>Privacy Policy</Link>
             <Link href="/about#terms" style={{ color: "var(--slate-400)" }}>Terms &amp; Conditions</Link>
           </div>
