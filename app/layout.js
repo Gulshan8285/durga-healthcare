@@ -52,6 +52,9 @@ export const metadata = {
         alt: "Durga Healthcare Home Attendant and Patient"
       }
     ]
+  },
+  verification: {
+    google: "haFFCphkKBac5Sq34lu51LIAWOOPqh4xVwQVrNj35JI"
   }
 };
 
