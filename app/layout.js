@@ -13,7 +13,7 @@ export const viewport = {
 };
 
 export const metadata = {
-  metadataBase: new URL("https://durgahealthcare.com"),
+  metadataBase: new URL("https://durga-healthcare.vercel.app"),
   title: {
     default: "Durga Healthcare | Compassionate Home Care & Patient Support",
     template: "%s | Durga Healthcare"

@@ -1,0 +1,26 @@
+# Durga Healthcare
+
+> Compassionate Home Care, Patient Support, and Nursing Services across India.
+
+## Overview
+Durga Healthcare provides professional and compassionate in-home healthcare services across India, including Delhi NCR, Bengaluru, Mumbai, Pune, Hyderabad, and Chennai. 
+
+- **Official Website**: https://durga-healthcare.vercel.app/
+- **24/7 Helpline**: +91 85918 50947
+- **Email**: govindkokare8751@gmail.com
+- **Operating Hours**: 24/7 Round-the-Clock Support
+
+## Key Services
+- **Patient Care Assistance at Home**: Daily personal care, bathing, bed-to-chair mobility, hygiene, and feeding assistance for bedridden or post-surgery patients.
+- **Elderly Care & Senior Companionship**: Dignified assistance, fall prevention, medication adherence, and compassionate care for elderly seniors living independently.
+- **Professional Home Nursing Care**: Verified GNM/B.Sc registered nurses for injections, IV infusions, wound dressing, Foley catheter care, and vital signs monitoring.
+- **Post-Hospitalization & Stroke Recovery**: Customized care coordination following discharge from hospital.
+- **Physiotherapy at Home**: Rehabilitation for stroke, ortho recovery, mobility improvement, and joint replacements.
+- **Medical Equipment Rental & Setup**: Oxygen concentrators, hospital beds, BiPAP/CPAP, and suction machines.
+
+## Key Pages
+- [Home](https://durga-healthcare.vercel.app/)
+- [All Services](https://durga-healthcare.vercel.app/services)
+- [About Us & Trust Signals](https://durga-healthcare.vercel.app/about)
+- [Healthcare Blog & Advice](https://durga-healthcare.vercel.app/blogs)
+- [Contact & 24/7 Support](https://durga-healthcare.vercel.app/contact)
